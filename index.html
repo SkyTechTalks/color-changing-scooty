@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick Your Scooty Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Design Your Dream Scooty</h1>
+        <div class="scooty-container">
+            <img id="scootyImage" src="yellow scooty1.png" alt="Scooty">
+        </div>
+        <p id="colorName" class="centered">Color: Yellow</p> <!-- Added color name display -->
+        <div class="color-options">
+            <button class="color-button" style="background-color: yellow;" onclick="changeScootyColor('yellow')"></button>
+            <button class="color-button" style="background-color: rgba(152, 6, 6, 0.795);" onclick="changeScootyColor('matte red')"></button>
+            <button class="color-button" style="background-color: blue;" onclick="changeScootyColor('blue')"></button>
+            <button class="color-button" style="background-color: black;" onclick="changeScootyColor('black')"></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
